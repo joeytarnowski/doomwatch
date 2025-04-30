@@ -1,4 +1,4 @@
-# doomwatch
+# DOOMWatch
  This is my final project for my Advanced Reverse Engineering class, a source port for DOOM to WatchOS.
 
 This project implements a framebuffer renderer and custom input system to run classic DOOM on watchOS using SwiftUI and SpriteKit, with input handled via touchscreen and Digital Crown.
