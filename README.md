@@ -10,13 +10,5 @@ https://www.youtube.com/watch?v=nkq0mLkQVxY
 Objective-C was used for interop between the Swift frontend and the DOOM Engine backend. doomgeneric_bridge handles the create/tick process and data exchange from the DOOM Engine to the frontend, and doomgeneric_watchos implements most of the required doomgeneric functions (DG_Init, DG_SleepMs, _GetTicksMs, and DG_GetKey) as well as other functions required for data exchange from the frontend to the DOOM Engine. 
 
 # Controls
-Controls are implemented and can be adjusted in doomController.swift. It uses the digital crown for forward/backward movement, and touchscreen controls are used for everything else (with fire/action replaced with backspace/enter during menu navigation):
-                           | run  |  
-  left    |   right        |______|  
-----------------------     | walk |  
-  left    |   right        |______|  
-----------------------     | none |  
-fire | pause | action      |______|  
-----------------------     | back |  
-
+Controls are implemented and can be adjusted in doomController.swift. It uses the digital crown for forward/backward movement, and touchscreen controls are used for everything else (with fire/action replaced with backspace/enter during menu navigation).
 
