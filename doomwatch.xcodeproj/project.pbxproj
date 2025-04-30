@@ -1,0 +1,1650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C85974842DAFE9E5008D27F9 /* doomwatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C85974832DAFE9E5008D27F9 /* doomwatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C85975782DAFEAA5008D27F9 /* doomgeneric.vcxproj in Resources */ = {isa = PBXBuildFile; fileRef = C85974D22DAFEAA5008D27F9 /* doomgeneric.vcxproj */; };
+		C85975792DAFEAA5008D27F9 /* Makefile.soso in Resources */ = {isa = PBXBuildFile; fileRef = C859751A2DAFEAA5008D27F9 /* Makefile.soso */; };
+		C859757A2DAFEAA5008D27F9 /* Makefile.freebsd in Resources */ = {isa = PBXBuildFile; fileRef = C85975182DAFEAA5008D27F9 /* Makefile.freebsd */; };
+		C859757B2DAFEAA5008D27F9 /* Makefile.emscripten in Resources */ = {isa = PBXBuildFile; fileRef = C85975172DAFEAA5008D27F9 /* Makefile.emscripten */; };
+		C859757C2DAFEAA5008D27F9 /* Makefile.sdl in Resources */ = {isa = PBXBuildFile; fileRef = C85975192DAFEAA5008D27F9 /* Makefile.sdl */; };
+		C859757D2DAFEAA5008D27F9 /* Makefile.sosox in Resources */ = {isa = PBXBuildFile; fileRef = C859751B2DAFEAA5008D27F9 /* Makefile.sosox */; };
+		C859757E2DAFEAA5008D27F9 /* doomgeneric.vcxproj.filters in Resources */ = {isa = PBXBuildFile; fileRef = C85974D92DAFEAA5008D27F9 /* doomgeneric.vcxproj.filters */; };
+		C85975862DAFEAA5008D27F9 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = C85975162DAFEAA5008D27F9 /* Makefile */; };
+		C85975DC2DAFEABE008D27F9 /* doom1.wad in Resources */ = {isa = PBXBuildFile; fileRef = C85975DB2DAFEABE008D27F9 /* doom1.wad */; };
+		C85975FA2DB02B17008D27F9 /* doomwatch Watch Extension Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C85975F92DB02B17008D27F9 /* doomwatch Watch Extension Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C85976992DB03593008D27F9 /* i_video.c in Sources */ = {isa = PBXBuildFile; fileRef = C85975002DAFEAA5008D27F9 /* i_video.c */; };
+		C859769A2DB03593008D27F9 /* p_maputl.c in Sources */ = {isa = PBXBuildFile; fileRef = C85975332DAFEAA5008D27F9 /* p_maputl.c */; };
+		C859769B2DB03593008D27F9 /* tables.c in Sources */ = {isa = PBXBuildFile; fileRef = C85975652DAFEAA5008D27F9 /* tables.c */; };
+		C859769C2DB03593008D27F9 /* wi_stuff.c in Sources */ = {isa = PBXBuildFile; fileRef = C85975742DAFEAA5008D27F9 /* wi_stuff.c */; };
+		C859769D2DB03593008D27F9 /* w_main.c in Sources */ = {isa = PBXBuildFile; fileRef = C859756F2DAFEAA5008D27F9 /* w_main.c */; };
+		C859769E2DB03593008D27F9 /* i_scale.c in Sources */ = {isa = PBXBuildFile; fileRef = C85974F52DAFEAA5008D27F9 /* i_scale.c */; };
+		C859769F2DB03593008D27F9 /* d_main.c in Sources */ = {isa = PBXBuildFile; fileRef = C85974C02DAFEAA5008D27F9 /* d_main.c */; };
+		C85976A02DB03593008D27F9 /* i_cdmus.c in Sources */ = {isa = PBXBuildFile; fileRef = C85974EE2DAFEAA5008D27F9 /* i_cdmus.c */; };
+		C85976A12DB03593008D27F9 /* info.c in Sources */ = {isa = PBXBuildFile; fileRef = C85975032DAFEAA5008D27F9 /* info.c */; };
+		C85976A22DB03593008D27F9 /* dstrings.c in Sources */ = {isa = PBXBuildFile; fileRef = C85974DF2DAFEAA5008D27F9 /* dstrings.c */; };
+		C85976A32DB03593008D27F9 /* i_sound.c in Sources */ = {isa = PBXBuildFile; fileRef = C85974F92DAFEAA5008D27F9 /* i_sound.c */; };
+		C85976A42DB03593008D27F9 /* p_enemy.c in Sources */ = {isa = PBXBuildFile; fileRef = C859752C2DAFEAA5008D27F9 /* p_enemy.c */; };
+		C85976A52DB03593008D27F9 /* mus2mid.c in Sources */ = {isa = PBXBuildFile; fileRef = C859751F2DAFEAA5008D27F9 /* mus2mid.c */; };
+		C85976A62DB03593008D27F9 /* st_stuff.c in Sources */ = {isa = PBXBuildFile; fileRef = C85975612DAFEAA5008D27F9 /* st_stuff.c */; };
+		C85976A72DB03593008D27F9 /* m_cheat.c in Sources */ = {isa = PBXBuildFile; fileRef = C85975092DAFEAA5008D27F9 /* m_cheat.c */; };
+		C85976A82DB03593008D27F9 /* hu_lib.c in Sources */ = {isa = PBXBuildFile; fileRef = C85974EA2DAFEAA5008D27F9 /* hu_lib.c */; };
+		C85976A92DB03593008D27F9 /* i_endoom.c in Sources */ = {isa = PBXBuildFile; fileRef = C85974F02DAFEAA5008D27F9 /* i_endoom.c */; };
+		C85976AA2DB03593008D27F9 /* statdump.c in Sources */ = {isa = PBXBuildFile; fileRef = C85975632DAFEAA5008D27F9 /* statdump.c */; };
+		C85976AB2DB03593008D27F9 /* m_argv.c in Sources */ = {isa = PBXBuildFile; fileRef = C85975052DAFEAA5008D27F9 /* m_argv.c */; };
+		C85976AC2DB03593008D27F9 /* p_mobj.c in Sources */ = {isa = PBXBuildFile; fileRef = C85975352DAFEAA5008D27F9 /* p_mobj.c */; };
+		C85976AD2DB03593008D27F9 /* v_video.c in Sources */ = {isa = PBXBuildFile; fileRef = C85975682DAFEAA5008D27F9 /* v_video.c */; };
+		C85976AE2DB03593008D27F9 /* doomstat.c in Sources */ = {isa = PBXBuildFile; fileRef = C85974DC2DAFEAA5008D27F9 /* doomstat.c */; };
+		C85976AF2DB03593008D27F9 /* p_setup.c in Sources */ = {isa = PBXBuildFile; fileRef = C859753C2DAFEAA5008D27F9 /* p_setup.c */; };
+		C85976B02DB03593008D27F9 /* p_telept.c in Sources */ = {isa = PBXBuildFile; fileRef = C85975412DAFEAA5008D27F9 /* p_telept.c */; };
+		C85976B12DB03593008D27F9 /* doomdef.c in Sources */ = {isa = PBXBuildFile; fileRef = C85974CE2DAFEAA5008D27F9 /* doomdef.c */; };
+		C85976B22DB03593008D27F9 /* p_inter.c in Sources */ = {isa = PBXBuildFile; fileRef = C859752F2DAFEAA5008D27F9 /* p_inter.c */; };
+		C85976B32DB03593008D27F9 /* icon.c in Sources */ = {isa = PBXBuildFile; fileRef = C85975012DAFEAA5008D27F9 /* icon.c */; };
+		C85976B42DB03593008D27F9 /* d_mode.c in Sources */ = {isa = PBXBuildFile; fileRef = C85974C22DAFEAA5008D27F9 /* d_mode.c */; };
+		C85976B52DB03593008D27F9 /* r_things.c in Sources */ = {isa = PBXBuildFile; fileRef = C85975572DAFEAA5008D27F9 /* r_things.c */; };
+		C85976B62DB03593008D27F9 /* gusconf.c in Sources */ = {isa = PBXBuildFile; fileRef = C85974E82DAFEAA5008D27F9 /* gusconf.c */; };
+		C85976B72DB03593008D27F9 /* m_bbox.c in Sources */ = {isa = PBXBuildFile; fileRef = C85975072DAFEAA5008D27F9 /* m_bbox.c */; };
+		C85976B82DB03593008D27F9 /* st_lib.c in Sources */ = {isa = PBXBuildFile; fileRef = C859755F2DAFEAA5008D27F9 /* st_lib.c */; };
+		C85976B92DB03593008D27F9 /* m_random.c in Sources */ = {isa = PBXBuildFile; fileRef = C85975152DAFEAA5008D27F9 /* m_random.c */; };
+		C85976BA2DB03593008D27F9 /* p_floor.c in Sources */ = {isa = PBXBuildFile; fileRef = C859752D2DAFEAA5008D27F9 /* p_floor.c */; };
+		C85976BB2DB03593008D27F9 /* dummy.c in Sources */ = {isa = PBXBuildFile; fileRef = C85974E02DAFEAA5008D27F9 /* dummy.c */; };
+		C85976BC2DB03593008D27F9 /* s_sound.c in Sources */ = {isa = PBXBuildFile; fileRef = C85975592DAFEAA5008D27F9 /* s_sound.c */; };
+		C85976BD2DB03593008D27F9 /* r_bsp.c in Sources */ = {isa = PBXBuildFile; fileRef = C85975462DAFEAA5008D27F9 /* r_bsp.c */; };
+		C85976BE2DB03593008D27F9 /* f_finale.c in Sources */ = {isa = PBXBuildFile; fileRef = C85974E22DAFEAA5008D27F9 /* f_finale.c */; };
+		C85976BF2DB03593008D27F9 /* d_items.c in Sources */ = {isa = PBXBuildFile; fileRef = C85974BA2DAFEAA5008D27F9 /* d_items.c */; };
+		C85976C02DB03593008D27F9 /* p_ceilng.c in Sources */ = {isa = PBXBuildFile; fileRef = C859752A2DAFEAA5008D27F9 /* p_ceilng.c */; };
+		C85976C12DB03593008D27F9 /* p_doors.c in Sources */ = {isa = PBXBuildFile; fileRef = C859752B2DAFEAA5008D27F9 /* p_doors.c */; };
+		C85976C22DB03593008D27F9 /* p_map.c in Sources */ = {isa = PBXBuildFile; fileRef = C85975322DAFEAA5008D27F9 /* p_map.c */; };
+		C85976C32DB03593008D27F9 /* sounds.c in Sources */ = {isa = PBXBuildFile; fileRef = C859755D2DAFEAA5008D27F9 /* sounds.c */; };
+		C85976C42DB03593008D27F9 /* p_tick.c in Sources */ = {isa = PBXBuildFile; fileRef = C85975432DAFEAA5008D27F9 /* p_tick.c */; };
+		C85976C52DB03593008D27F9 /* i_joystick.c in Sources */ = {isa = PBXBuildFile; fileRef = C85974F32DAFEAA5008D27F9 /* i_joystick.c */; };
+		C85976C62DB03593008D27F9 /* p_sight.c in Sources */ = {isa = PBXBuildFile; fileRef = C859753D2DAFEAA5008D27F9 /* p_sight.c */; };
+		C85976C72DB03593008D27F9 /* p_switch.c in Sources */ = {isa = PBXBuildFile; fileRef = C85975402DAFEAA5008D27F9 /* p_switch.c */; };
+		C85976C82DB03593008D27F9 /* g_game.c in Sources */ = {isa = PBXBuildFile; fileRef = C85974E62DAFEAA5008D27F9 /* g_game.c */; };
+		C85976C92DB03593008D27F9 /* d_loop.c in Sources */ = {isa = PBXBuildFile; fileRef = C85974BE2DAFEAA5008D27F9 /* d_loop.c */; };
+		C85976CA2DB03593008D27F9 /* w_wad.c in Sources */ = {isa = PBXBuildFile; fileRef = C85975722DAFEAA5008D27F9 /* w_wad.c */; };
+		C85976CB2DB03593008D27F9 /* f_wipe.c in Sources */ = {isa = PBXBuildFile; fileRef = C85974E42DAFEAA5008D27F9 /* f_wipe.c */; };
+		C85976CC2DB03593008D27F9 /* w_file.c in Sources */ = {isa = PBXBuildFile; fileRef = C859756C2DAFEAA5008D27F9 /* w_file.c */; };
+		C85976CD2DB03593008D27F9 /* w_file_stdc.c in Sources */ = {isa = PBXBuildFile; fileRef = C859756D2DAFEAA5008D27F9 /* w_file_stdc.c */; };
+		C85976CE2DB03593008D27F9 /* d_net.c in Sources */ = {isa = PBXBuildFile; fileRef = C85974C32DAFEAA5008D27F9 /* d_net.c */; };
+		C85976CF2DB03593008D27F9 /* am_map.c in Sources */ = {isa = PBXBuildFile; fileRef = C85974B42DAFEAA5008D27F9 /* am_map.c */; };
+		C85976D02DB03593008D27F9 /* hu_stuff.c in Sources */ = {isa = PBXBuildFile; fileRef = C85974EC2DAFEAA5008D27F9 /* hu_stuff.c */; };
+		C85976D12DB03593008D27F9 /* memio.c in Sources */ = {isa = PBXBuildFile; fileRef = C859751D2DAFEAA5008D27F9 /* memio.c */; };
+		C85976D22DB03593008D27F9 /* r_plane.c in Sources */ = {isa = PBXBuildFile; fileRef = C85975502DAFEAA5008D27F9 /* r_plane.c */; };
+		C85976D32DB03593008D27F9 /* r_data.c in Sources */ = {isa = PBXBuildFile; fileRef = C85975482DAFEAA5008D27F9 /* r_data.c */; };
+		C85976D42DB03593008D27F9 /* r_sky.c in Sources */ = {isa = PBXBuildFile; fileRef = C85975542DAFEAA5008D27F9 /* r_sky.c */; };
+		C85976D52DB03593008D27F9 /* i_timer.c in Sources */ = {isa = PBXBuildFile; fileRef = C85974FE2DAFEAA5008D27F9 /* i_timer.c */; };
+		C85976D62DB03593008D27F9 /* p_lights.c in Sources */ = {isa = PBXBuildFile; fileRef = C85975302DAFEAA5008D27F9 /* p_lights.c */; };
+		C85976D72DB03593008D27F9 /* i_system.c in Sources */ = {isa = PBXBuildFile; fileRef = C85974FC2DAFEAA5008D27F9 /* i_system.c */; };
+		C85976D82DB03593008D27F9 /* p_pspr.c in Sources */ = {isa = PBXBuildFile; fileRef = C85975382DAFEAA5008D27F9 /* p_pspr.c */; };
+		C85976D92DB03593008D27F9 /* r_main.c in Sources */ = {isa = PBXBuildFile; fileRef = C859754E2DAFEAA5008D27F9 /* r_main.c */; };
+		C85976DA2DB03593008D27F9 /* p_saveg.c in Sources */ = {isa = PBXBuildFile; fileRef = C859753A2DAFEAA5008D27F9 /* p_saveg.c */; };
+		C85976DB2DB03593008D27F9 /* z_zone.c in Sources */ = {isa = PBXBuildFile; fileRef = C85975762DAFEAA5008D27F9 /* z_zone.c */; };
+		C85976DC2DB03593008D27F9 /* d_iwad.c in Sources */ = {isa = PBXBuildFile; fileRef = C85974BC2DAFEAA5008D27F9 /* d_iwad.c */; };
+		C85976DD2DB03593008D27F9 /* m_config.c in Sources */ = {isa = PBXBuildFile; fileRef = C859750B2DAFEAA5008D27F9 /* m_config.c */; };
+		C85976DE2DB03593008D27F9 /* m_fixed.c in Sources */ = {isa = PBXBuildFile; fileRef = C859750F2DAFEAA5008D27F9 /* m_fixed.c */; };
+		C85976DF2DB03593008D27F9 /* m_menu.c in Sources */ = {isa = PBXBuildFile; fileRef = C85975112DAFEAA5008D27F9 /* m_menu.c */; };
+		C85976E02DB03593008D27F9 /* doomgeneric.c in Sources */ = {isa = PBXBuildFile; fileRef = C85974D12DAFEAA5008D27F9 /* doomgeneric.c */; };
+		C85976E12DB03593008D27F9 /* r_segs.c in Sources */ = {isa = PBXBuildFile; fileRef = C85975522DAFEAA5008D27F9 /* r_segs.c */; };
+		C85976E22DB03593008D27F9 /* r_draw.c in Sources */ = {isa = PBXBuildFile; fileRef = C859754B2DAFEAA5008D27F9 /* r_draw.c */; };
+		C85976E32DB03593008D27F9 /* i_input.c in Sources */ = {isa = PBXBuildFile; fileRef = C85974F12DAFEAA5008D27F9 /* i_input.c */; };
+		C85976E42DB03593008D27F9 /* w_checksum.c in Sources */ = {isa = PBXBuildFile; fileRef = C859756A2DAFEAA5008D27F9 /* w_checksum.c */; };
+		C85976E52DB03593008D27F9 /* p_spec.c in Sources */ = {isa = PBXBuildFile; fileRef = C859753F2DAFEAA5008D27F9 /* p_spec.c */; };
+		C85976E62DB03593008D27F9 /* d_event.c in Sources */ = {isa = PBXBuildFile; fileRef = C85974B82DAFEAA5008D27F9 /* d_event.c */; };
+		C85976E72DB03593008D27F9 /* m_controls.c in Sources */ = {isa = PBXBuildFile; fileRef = C859750D2DAFEAA5008D27F9 /* m_controls.c */; };
+		C85976E82DB03593008D27F9 /* p_plats.c in Sources */ = {isa = PBXBuildFile; fileRef = C85975362DAFEAA5008D27F9 /* p_plats.c */; };
+		C85976E92DB03593008D27F9 /* sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = C859755B2DAFEAA5008D27F9 /* sha1.c */; };
+		C85976EA2DB03593008D27F9 /* p_user.c in Sources */ = {isa = PBXBuildFile; fileRef = C85975442DAFEAA5008D27F9 /* p_user.c */; };
+		C85976EB2DB03593008D27F9 /* m_misc.c in Sources */ = {isa = PBXBuildFile; fileRef = C85975132DAFEAA5008D27F9 /* m_misc.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C85974852DAFE9E5008D27F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C85974772DAFE9E4008D27F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C85974822DAFE9E5008D27F9;
+			remoteInfo = "doomwatch Watch App";
+		};
+		C85974932DAFE9E7008D27F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C85974772DAFE9E4008D27F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C85974822DAFE9E5008D27F9;
+			remoteInfo = "doomwatch Watch App";
+		};
+		C859749D2DAFE9E7008D27F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C85974772DAFE9E4008D27F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C85974822DAFE9E5008D27F9;
+			remoteInfo = "doomwatch Watch App";
+		};
+		C85975FB2DB02B17008D27F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C85974772DAFE9E4008D27F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C85975F82DB02B17008D27F9;
+			remoteInfo = "doomwatch Watch Extension Watch App";
+		};
+		C85976092DB02B1A008D27F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C85974772DAFE9E4008D27F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C85975F82DB02B17008D27F9;
+			remoteInfo = "doomwatch Watch Extension Watch App";
+		};
+		C85976132DB02B1A008D27F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C85974772DAFE9E4008D27F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C85975F82DB02B17008D27F9;
+			remoteInfo = "doomwatch Watch Extension Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C85974A92DAFE9E7008D27F9 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				C85974842DAFE9E5008D27F9 /* doomwatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C859761D2DB02B1A008D27F9 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				C85975FA2DB02B17008D27F9 /* doomwatch Watch Extension Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C859747D2DAFE9E5008D27F9 /* doomwatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = doomwatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C85974832DAFE9E5008D27F9 /* doomwatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "doomwatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C85974B32DAFEAA5008D27F9 /* am_map.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = am_map.h; sourceTree = "<group>"; };
+		C85974B42DAFEAA5008D27F9 /* am_map.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = am_map.c; sourceTree = "<group>"; };
+		C85974B52DAFEAA5008D27F9 /* config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		C85974B62DAFEAA5008D27F9 /* d_englsh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = d_englsh.h; sourceTree = "<group>"; };
+		C85974B72DAFEAA5008D27F9 /* d_event.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = d_event.h; sourceTree = "<group>"; };
+		C85974B82DAFEAA5008D27F9 /* d_event.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = d_event.c; sourceTree = "<group>"; };
+		C85974B92DAFEAA5008D27F9 /* d_items.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = d_items.h; sourceTree = "<group>"; };
+		C85974BA2DAFEAA5008D27F9 /* d_items.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = d_items.c; sourceTree = "<group>"; };
+		C85974BB2DAFEAA5008D27F9 /* d_iwad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = d_iwad.h; sourceTree = "<group>"; };
+		C85974BC2DAFEAA5008D27F9 /* d_iwad.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = d_iwad.c; sourceTree = "<group>"; };
+		C85974BD2DAFEAA5008D27F9 /* d_loop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = d_loop.h; sourceTree = "<group>"; };
+		C85974BE2DAFEAA5008D27F9 /* d_loop.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = d_loop.c; sourceTree = "<group>"; };
+		C85974BF2DAFEAA5008D27F9 /* d_main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = d_main.h; sourceTree = "<group>"; };
+		C85974C02DAFEAA5008D27F9 /* d_main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = d_main.c; sourceTree = "<group>"; };
+		C85974C12DAFEAA5008D27F9 /* d_mode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = d_mode.h; sourceTree = "<group>"; };
+		C85974C22DAFEAA5008D27F9 /* d_mode.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = d_mode.c; sourceTree = "<group>"; };
+		C85974C32DAFEAA5008D27F9 /* d_net.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = d_net.c; sourceTree = "<group>"; };
+		C85974C42DAFEAA5008D27F9 /* d_player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = d_player.h; sourceTree = "<group>"; };
+		C85974C52DAFEAA5008D27F9 /* d_textur.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = d_textur.h; sourceTree = "<group>"; };
+		C85974C62DAFEAA5008D27F9 /* d_think.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = d_think.h; sourceTree = "<group>"; };
+		C85974C72DAFEAA5008D27F9 /* d_ticcmd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = d_ticcmd.h; sourceTree = "<group>"; };
+		C85974C82DAFEAA5008D27F9 /* deh_main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = deh_main.h; sourceTree = "<group>"; };
+		C85974C92DAFEAA5008D27F9 /* deh_misc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = deh_misc.h; sourceTree = "<group>"; };
+		C85974CA2DAFEAA5008D27F9 /* deh_str.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = deh_str.h; sourceTree = "<group>"; };
+		C85974CB2DAFEAA5008D27F9 /* doom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = doom.h; sourceTree = "<group>"; };
+		C85974CC2DAFEAA5008D27F9 /* doomdata.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = doomdata.h; sourceTree = "<group>"; };
+		C85974CD2DAFEAA5008D27F9 /* doomdef.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = doomdef.h; sourceTree = "<group>"; };
+		C85974CE2DAFEAA5008D27F9 /* doomdef.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = doomdef.c; sourceTree = "<group>"; };
+		C85974CF2DAFEAA5008D27F9 /* doomfeatures.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = doomfeatures.h; sourceTree = "<group>"; };
+		C85974D02DAFEAA5008D27F9 /* doomgeneric.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = doomgeneric.h; sourceTree = "<group>"; };
+		C85974D12DAFEAA5008D27F9 /* doomgeneric.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = doomgeneric.c; sourceTree = "<group>"; };
+		C85974D22DAFEAA5008D27F9 /* doomgeneric.vcxproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = doomgeneric.vcxproj; sourceTree = "<group>"; };
+		C85974D92DAFEAA5008D27F9 /* doomgeneric.vcxproj.filters */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = doomgeneric.vcxproj.filters; sourceTree = "<group>"; };
+		C85974DA2DAFEAA5008D27F9 /* doomkeys.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = doomkeys.h; sourceTree = "<group>"; };
+		C85974DB2DAFEAA5008D27F9 /* doomstat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = doomstat.h; sourceTree = "<group>"; };
+		C85974DC2DAFEAA5008D27F9 /* doomstat.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = doomstat.c; sourceTree = "<group>"; };
+		C85974DD2DAFEAA5008D27F9 /* doomtype.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = doomtype.h; sourceTree = "<group>"; };
+		C85974DE2DAFEAA5008D27F9 /* dstrings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dstrings.h; sourceTree = "<group>"; };
+		C85974DF2DAFEAA5008D27F9 /* dstrings.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dstrings.c; sourceTree = "<group>"; };
+		C85974E02DAFEAA5008D27F9 /* dummy.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dummy.c; sourceTree = "<group>"; };
+		C85974E12DAFEAA5008D27F9 /* f_finale.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = f_finale.h; sourceTree = "<group>"; };
+		C85974E22DAFEAA5008D27F9 /* f_finale.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = f_finale.c; sourceTree = "<group>"; };
+		C85974E32DAFEAA5008D27F9 /* f_wipe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = f_wipe.h; sourceTree = "<group>"; };
+		C85974E42DAFEAA5008D27F9 /* f_wipe.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = f_wipe.c; sourceTree = "<group>"; };
+		C85974E52DAFEAA5008D27F9 /* g_game.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = g_game.h; sourceTree = "<group>"; };
+		C85974E62DAFEAA5008D27F9 /* g_game.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = g_game.c; sourceTree = "<group>"; };
+		C85974E72DAFEAA5008D27F9 /* gusconf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gusconf.h; sourceTree = "<group>"; };
+		C85974E82DAFEAA5008D27F9 /* gusconf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gusconf.c; sourceTree = "<group>"; };
+		C85974E92DAFEAA5008D27F9 /* hu_lib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hu_lib.h; sourceTree = "<group>"; };
+		C85974EA2DAFEAA5008D27F9 /* hu_lib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = hu_lib.c; sourceTree = "<group>"; };
+		C85974EB2DAFEAA5008D27F9 /* hu_stuff.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hu_stuff.h; sourceTree = "<group>"; };
+		C85974EC2DAFEAA5008D27F9 /* hu_stuff.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = hu_stuff.c; sourceTree = "<group>"; };
+		C85974ED2DAFEAA5008D27F9 /* i_cdmus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = i_cdmus.h; sourceTree = "<group>"; };
+		C85974EE2DAFEAA5008D27F9 /* i_cdmus.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = i_cdmus.c; sourceTree = "<group>"; };
+		C85974EF2DAFEAA5008D27F9 /* i_endoom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = i_endoom.h; sourceTree = "<group>"; };
+		C85974F02DAFEAA5008D27F9 /* i_endoom.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = i_endoom.c; sourceTree = "<group>"; };
+		C85974F12DAFEAA5008D27F9 /* i_input.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = i_input.c; sourceTree = "<group>"; };
+		C85974F22DAFEAA5008D27F9 /* i_joystick.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = i_joystick.h; sourceTree = "<group>"; };
+		C85974F32DAFEAA5008D27F9 /* i_joystick.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = i_joystick.c; sourceTree = "<group>"; };
+		C85974F42DAFEAA5008D27F9 /* i_scale.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = i_scale.h; sourceTree = "<group>"; };
+		C85974F52DAFEAA5008D27F9 /* i_scale.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = i_scale.c; sourceTree = "<group>"; };
+		C85974F82DAFEAA5008D27F9 /* i_sound.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = i_sound.h; sourceTree = "<group>"; };
+		C85974F92DAFEAA5008D27F9 /* i_sound.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = i_sound.c; sourceTree = "<group>"; };
+		C85974FA2DAFEAA5008D27F9 /* i_swap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = i_swap.h; sourceTree = "<group>"; };
+		C85974FB2DAFEAA5008D27F9 /* i_system.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = i_system.h; sourceTree = "<group>"; };
+		C85974FC2DAFEAA5008D27F9 /* i_system.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = i_system.c; sourceTree = "<group>"; };
+		C85974FD2DAFEAA5008D27F9 /* i_timer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = i_timer.h; sourceTree = "<group>"; };
+		C85974FE2DAFEAA5008D27F9 /* i_timer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = i_timer.c; sourceTree = "<group>"; };
+		C85974FF2DAFEAA5008D27F9 /* i_video.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = i_video.h; sourceTree = "<group>"; };
+		C85975002DAFEAA5008D27F9 /* i_video.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = i_video.c; sourceTree = "<group>"; };
+		C85975012DAFEAA5008D27F9 /* icon.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = icon.c; sourceTree = "<group>"; };
+		C85975022DAFEAA5008D27F9 /* info.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = info.h; sourceTree = "<group>"; };
+		C85975032DAFEAA5008D27F9 /* info.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = info.c; sourceTree = "<group>"; };
+		C85975042DAFEAA5008D27F9 /* m_argv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = m_argv.h; sourceTree = "<group>"; };
+		C85975052DAFEAA5008D27F9 /* m_argv.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = m_argv.c; sourceTree = "<group>"; };
+		C85975062DAFEAA5008D27F9 /* m_bbox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = m_bbox.h; sourceTree = "<group>"; };
+		C85975072DAFEAA5008D27F9 /* m_bbox.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = m_bbox.c; sourceTree = "<group>"; };
+		C85975082DAFEAA5008D27F9 /* m_cheat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = m_cheat.h; sourceTree = "<group>"; };
+		C85975092DAFEAA5008D27F9 /* m_cheat.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = m_cheat.c; sourceTree = "<group>"; };
+		C859750A2DAFEAA5008D27F9 /* m_config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = m_config.h; sourceTree = "<group>"; };
+		C859750B2DAFEAA5008D27F9 /* m_config.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = m_config.c; sourceTree = "<group>"; };
+		C859750C2DAFEAA5008D27F9 /* m_controls.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = m_controls.h; sourceTree = "<group>"; };
+		C859750D2DAFEAA5008D27F9 /* m_controls.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = m_controls.c; sourceTree = "<group>"; };
+		C859750E2DAFEAA5008D27F9 /* m_fixed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = m_fixed.h; sourceTree = "<group>"; };
+		C859750F2DAFEAA5008D27F9 /* m_fixed.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = m_fixed.c; sourceTree = "<group>"; };
+		C85975102DAFEAA5008D27F9 /* m_menu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = m_menu.h; sourceTree = "<group>"; };
+		C85975112DAFEAA5008D27F9 /* m_menu.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = m_menu.c; sourceTree = "<group>"; };
+		C85975122DAFEAA5008D27F9 /* m_misc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = m_misc.h; sourceTree = "<group>"; };
+		C85975132DAFEAA5008D27F9 /* m_misc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = m_misc.c; sourceTree = "<group>"; };
+		C85975142DAFEAA5008D27F9 /* m_random.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = m_random.h; sourceTree = "<group>"; };
+		C85975152DAFEAA5008D27F9 /* m_random.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = m_random.c; sourceTree = "<group>"; };
+		C85975162DAFEAA5008D27F9 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		C85975172DAFEAA5008D27F9 /* Makefile.emscripten */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.emscripten; sourceTree = "<group>"; };
+		C85975182DAFEAA5008D27F9 /* Makefile.freebsd */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.freebsd; sourceTree = "<group>"; };
+		C85975192DAFEAA5008D27F9 /* Makefile.sdl */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.sdl; sourceTree = "<group>"; };
+		C859751A2DAFEAA5008D27F9 /* Makefile.soso */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.soso; sourceTree = "<group>"; };
+		C859751B2DAFEAA5008D27F9 /* Makefile.sosox */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.sosox; sourceTree = "<group>"; };
+		C859751C2DAFEAA5008D27F9 /* memio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = memio.h; sourceTree = "<group>"; };
+		C859751D2DAFEAA5008D27F9 /* memio.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = memio.c; sourceTree = "<group>"; };
+		C859751E2DAFEAA5008D27F9 /* mus2mid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mus2mid.h; sourceTree = "<group>"; };
+		C859751F2DAFEAA5008D27F9 /* mus2mid.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mus2mid.c; sourceTree = "<group>"; };
+		C85975202DAFEAA5008D27F9 /* net_client.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = net_client.h; sourceTree = "<group>"; };
+		C85975212DAFEAA5008D27F9 /* net_dedicated.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = net_dedicated.h; sourceTree = "<group>"; };
+		C85975222DAFEAA5008D27F9 /* net_defs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = net_defs.h; sourceTree = "<group>"; };
+		C85975232DAFEAA5008D27F9 /* net_gui.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = net_gui.h; sourceTree = "<group>"; };
+		C85975242DAFEAA5008D27F9 /* net_io.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = net_io.h; sourceTree = "<group>"; };
+		C85975252DAFEAA5008D27F9 /* net_loop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = net_loop.h; sourceTree = "<group>"; };
+		C85975262DAFEAA5008D27F9 /* net_packet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = net_packet.h; sourceTree = "<group>"; };
+		C85975272DAFEAA5008D27F9 /* net_query.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = net_query.h; sourceTree = "<group>"; };
+		C85975282DAFEAA5008D27F9 /* net_sdl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = net_sdl.h; sourceTree = "<group>"; };
+		C85975292DAFEAA5008D27F9 /* net_server.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = net_server.h; sourceTree = "<group>"; };
+		C859752A2DAFEAA5008D27F9 /* p_ceilng.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = p_ceilng.c; sourceTree = "<group>"; };
+		C859752B2DAFEAA5008D27F9 /* p_doors.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = p_doors.c; sourceTree = "<group>"; };
+		C859752C2DAFEAA5008D27F9 /* p_enemy.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = p_enemy.c; sourceTree = "<group>"; };
+		C859752D2DAFEAA5008D27F9 /* p_floor.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = p_floor.c; sourceTree = "<group>"; };
+		C859752E2DAFEAA5008D27F9 /* p_inter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = p_inter.h; sourceTree = "<group>"; };
+		C859752F2DAFEAA5008D27F9 /* p_inter.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = p_inter.c; sourceTree = "<group>"; };
+		C85975302DAFEAA5008D27F9 /* p_lights.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = p_lights.c; sourceTree = "<group>"; };
+		C85975312DAFEAA5008D27F9 /* p_local.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = p_local.h; sourceTree = "<group>"; };
+		C85975322DAFEAA5008D27F9 /* p_map.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = p_map.c; sourceTree = "<group>"; };
+		C85975332DAFEAA5008D27F9 /* p_maputl.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = p_maputl.c; sourceTree = "<group>"; };
+		C85975342DAFEAA5008D27F9 /* p_mobj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = p_mobj.h; sourceTree = "<group>"; };
+		C85975352DAFEAA5008D27F9 /* p_mobj.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = p_mobj.c; sourceTree = "<group>"; };
+		C85975362DAFEAA5008D27F9 /* p_plats.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = p_plats.c; sourceTree = "<group>"; };
+		C85975372DAFEAA5008D27F9 /* p_pspr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = p_pspr.h; sourceTree = "<group>"; };
+		C85975382DAFEAA5008D27F9 /* p_pspr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = p_pspr.c; sourceTree = "<group>"; };
+		C85975392DAFEAA5008D27F9 /* p_saveg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = p_saveg.h; sourceTree = "<group>"; };
+		C859753A2DAFEAA5008D27F9 /* p_saveg.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = p_saveg.c; sourceTree = "<group>"; };
+		C859753B2DAFEAA5008D27F9 /* p_setup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = p_setup.h; sourceTree = "<group>"; };
+		C859753C2DAFEAA5008D27F9 /* p_setup.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = p_setup.c; sourceTree = "<group>"; };
+		C859753D2DAFEAA5008D27F9 /* p_sight.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = p_sight.c; sourceTree = "<group>"; };
+		C859753E2DAFEAA5008D27F9 /* p_spec.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = p_spec.h; sourceTree = "<group>"; };
+		C859753F2DAFEAA5008D27F9 /* p_spec.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = p_spec.c; sourceTree = "<group>"; };
+		C85975402DAFEAA5008D27F9 /* p_switch.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = p_switch.c; sourceTree = "<group>"; };
+		C85975412DAFEAA5008D27F9 /* p_telept.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = p_telept.c; sourceTree = "<group>"; };
+		C85975422DAFEAA5008D27F9 /* p_tick.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = p_tick.h; sourceTree = "<group>"; };
+		C85975432DAFEAA5008D27F9 /* p_tick.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = p_tick.c; sourceTree = "<group>"; };
+		C85975442DAFEAA5008D27F9 /* p_user.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = p_user.c; sourceTree = "<group>"; };
+		C85975452DAFEAA5008D27F9 /* r_bsp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = r_bsp.h; sourceTree = "<group>"; };
+		C85975462DAFEAA5008D27F9 /* r_bsp.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = r_bsp.c; sourceTree = "<group>"; };
+		C85975472DAFEAA5008D27F9 /* r_data.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = r_data.h; sourceTree = "<group>"; };
+		C85975482DAFEAA5008D27F9 /* r_data.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = r_data.c; sourceTree = "<group>"; };
+		C85975492DAFEAA5008D27F9 /* r_defs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = r_defs.h; sourceTree = "<group>"; };
+		C859754A2DAFEAA5008D27F9 /* r_draw.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = r_draw.h; sourceTree = "<group>"; };
+		C859754B2DAFEAA5008D27F9 /* r_draw.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = r_draw.c; sourceTree = "<group>"; };
+		C859754C2DAFEAA5008D27F9 /* r_local.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = r_local.h; sourceTree = "<group>"; };
+		C859754D2DAFEAA5008D27F9 /* r_main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = r_main.h; sourceTree = "<group>"; };
+		C859754E2DAFEAA5008D27F9 /* r_main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = r_main.c; sourceTree = "<group>"; };
+		C859754F2DAFEAA5008D27F9 /* r_plane.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = r_plane.h; sourceTree = "<group>"; };
+		C85975502DAFEAA5008D27F9 /* r_plane.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = r_plane.c; sourceTree = "<group>"; };
+		C85975512DAFEAA5008D27F9 /* r_segs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = r_segs.h; sourceTree = "<group>"; };
+		C85975522DAFEAA5008D27F9 /* r_segs.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = r_segs.c; sourceTree = "<group>"; };
+		C85975532DAFEAA5008D27F9 /* r_sky.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = r_sky.h; sourceTree = "<group>"; };
+		C85975542DAFEAA5008D27F9 /* r_sky.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = r_sky.c; sourceTree = "<group>"; };
+		C85975552DAFEAA5008D27F9 /* r_state.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = r_state.h; sourceTree = "<group>"; };
+		C85975562DAFEAA5008D27F9 /* r_things.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = r_things.h; sourceTree = "<group>"; };
+		C85975572DAFEAA5008D27F9 /* r_things.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = r_things.c; sourceTree = "<group>"; };
+		C85975582DAFEAA5008D27F9 /* s_sound.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = s_sound.h; sourceTree = "<group>"; };
+		C85975592DAFEAA5008D27F9 /* s_sound.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = s_sound.c; sourceTree = "<group>"; };
+		C859755A2DAFEAA5008D27F9 /* sha1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sha1.h; sourceTree = "<group>"; };
+		C859755B2DAFEAA5008D27F9 /* sha1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sha1.c; sourceTree = "<group>"; };
+		C859755C2DAFEAA5008D27F9 /* sounds.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sounds.h; sourceTree = "<group>"; };
+		C859755D2DAFEAA5008D27F9 /* sounds.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sounds.c; sourceTree = "<group>"; };
+		C859755E2DAFEAA5008D27F9 /* st_lib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = st_lib.h; sourceTree = "<group>"; };
+		C859755F2DAFEAA5008D27F9 /* st_lib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = st_lib.c; sourceTree = "<group>"; };
+		C85975602DAFEAA5008D27F9 /* st_stuff.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = st_stuff.h; sourceTree = "<group>"; };
+		C85975612DAFEAA5008D27F9 /* st_stuff.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = st_stuff.c; sourceTree = "<group>"; };
+		C85975622DAFEAA5008D27F9 /* statdump.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = statdump.h; sourceTree = "<group>"; };
+		C85975632DAFEAA5008D27F9 /* statdump.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = statdump.c; sourceTree = "<group>"; };
+		C85975642DAFEAA5008D27F9 /* tables.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tables.h; sourceTree = "<group>"; };
+		C85975652DAFEAA5008D27F9 /* tables.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tables.c; sourceTree = "<group>"; };
+		C85975662DAFEAA5008D27F9 /* v_patch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = v_patch.h; sourceTree = "<group>"; };
+		C85975672DAFEAA5008D27F9 /* v_video.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = v_video.h; sourceTree = "<group>"; };
+		C85975682DAFEAA5008D27F9 /* v_video.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = v_video.c; sourceTree = "<group>"; };
+		C85975692DAFEAA5008D27F9 /* w_checksum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = w_checksum.h; sourceTree = "<group>"; };
+		C859756A2DAFEAA5008D27F9 /* w_checksum.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = w_checksum.c; sourceTree = "<group>"; };
+		C859756B2DAFEAA5008D27F9 /* w_file.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = w_file.h; sourceTree = "<group>"; };
+		C859756C2DAFEAA5008D27F9 /* w_file.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = w_file.c; sourceTree = "<group>"; };
+		C859756D2DAFEAA5008D27F9 /* w_file_stdc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = w_file_stdc.c; sourceTree = "<group>"; };
+		C859756E2DAFEAA5008D27F9 /* w_main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = w_main.h; sourceTree = "<group>"; };
+		C859756F2DAFEAA5008D27F9 /* w_main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = w_main.c; sourceTree = "<group>"; };
+		C85975702DAFEAA5008D27F9 /* w_merge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = w_merge.h; sourceTree = "<group>"; };
+		C85975712DAFEAA5008D27F9 /* w_wad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = w_wad.h; sourceTree = "<group>"; };
+		C85975722DAFEAA5008D27F9 /* w_wad.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = w_wad.c; sourceTree = "<group>"; };
+		C85975732DAFEAA5008D27F9 /* wi_stuff.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wi_stuff.h; sourceTree = "<group>"; };
+		C85975742DAFEAA5008D27F9 /* wi_stuff.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = wi_stuff.c; sourceTree = "<group>"; };
+		C85975752DAFEAA5008D27F9 /* z_zone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = z_zone.h; sourceTree = "<group>"; };
+		C85975762DAFEAA5008D27F9 /* z_zone.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = z_zone.c; sourceTree = "<group>"; };
+		C85975DB2DAFEABE008D27F9 /* doom1.wad */ = {isa = PBXFileReference; lastKnownFileType = file; path = doom1.wad; sourceTree = "<group>"; };
+		C85975F42DB02B17008D27F9 /* doomwatch Watch Extension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "doomwatch Watch Extension.app"; path = "/Users/joeytarnowski/Documents/GitHub/apple-watch-doom/doomwatch/build/Debug-iphoneos/doomwatch Watch Extension.app"; sourceTree = "<absolute>"; };
+		C85975F92DB02B17008D27F9 /* doomwatch Watch Extension Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "doomwatch Watch Extension Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C859768F2DB0353F008D27F9 /* doomwatch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "doomwatch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C85976902DB0353F008D27F9 /* doomwatch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "doomwatch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C85976912DB0353F008D27F9 /* doomwatch Watch Extension Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "doomwatch Watch Extension Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C85976922DB0353F008D27F9 /* doomwatch Watch Extension Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "doomwatch Watch Extension Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C85974872DAFE9E5008D27F9 /* doomwatch Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "doomwatch Watch App";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C85974802DAFE9E5008D27F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C859748F2DAFE9E7008D27F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C85974992DAFE9E7008D27F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C85975F62DB02B17008D27F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C85976052DB02B1A008D27F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C859760F2DB02B1A008D27F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C85974762DAFE9E4008D27F9 = {
+			isa = PBXGroup;
+			children = (
+				C85974872DAFE9E5008D27F9 /* doomwatch Watch App */,
+				C859747E2DAFE9E5008D27F9 /* Products */,
+				C85975772DAFEAA5008D27F9 /* doomgeneric */,
+				C85975DB2DAFEABE008D27F9 /* doom1.wad */,
+			);
+			sourceTree = "<group>";
+		};
+		C859747E2DAFE9E5008D27F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C859747D2DAFE9E5008D27F9 /* doomwatch.app */,
+				C85974832DAFE9E5008D27F9 /* doomwatch Watch App.app */,
+				C85975F92DB02B17008D27F9 /* doomwatch Watch Extension Watch App.app */,
+				C859768F2DB0353F008D27F9 /* doomwatch Watch AppTests.xctest */,
+				C85976902DB0353F008D27F9 /* doomwatch Watch AppUITests.xctest */,
+				C85976912DB0353F008D27F9 /* doomwatch Watch Extension Watch AppTests.xctest */,
+				C85976922DB0353F008D27F9 /* doomwatch Watch Extension Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C85975772DAFEAA5008D27F9 /* doomgeneric */ = {
+			isa = PBXGroup;
+			children = (
+				C85974B32DAFEAA5008D27F9 /* am_map.h */,
+				C85974B42DAFEAA5008D27F9 /* am_map.c */,
+				C85974B52DAFEAA5008D27F9 /* config.h */,
+				C85974B62DAFEAA5008D27F9 /* d_englsh.h */,
+				C85974B72DAFEAA5008D27F9 /* d_event.h */,
+				C85974B82DAFEAA5008D27F9 /* d_event.c */,
+				C85974B92DAFEAA5008D27F9 /* d_items.h */,
+				C85974BA2DAFEAA5008D27F9 /* d_items.c */,
+				C85974BB2DAFEAA5008D27F9 /* d_iwad.h */,
+				C85974BC2DAFEAA5008D27F9 /* d_iwad.c */,
+				C85974BD2DAFEAA5008D27F9 /* d_loop.h */,
+				C85974BE2DAFEAA5008D27F9 /* d_loop.c */,
+				C85974BF2DAFEAA5008D27F9 /* d_main.h */,
+				C85974C02DAFEAA5008D27F9 /* d_main.c */,
+				C85974C12DAFEAA5008D27F9 /* d_mode.h */,
+				C85974C22DAFEAA5008D27F9 /* d_mode.c */,
+				C85974C32DAFEAA5008D27F9 /* d_net.c */,
+				C85974C42DAFEAA5008D27F9 /* d_player.h */,
+				C85974C52DAFEAA5008D27F9 /* d_textur.h */,
+				C85974C62DAFEAA5008D27F9 /* d_think.h */,
+				C85974C72DAFEAA5008D27F9 /* d_ticcmd.h */,
+				C85974C82DAFEAA5008D27F9 /* deh_main.h */,
+				C85974C92DAFEAA5008D27F9 /* deh_misc.h */,
+				C85974CA2DAFEAA5008D27F9 /* deh_str.h */,
+				C85974CB2DAFEAA5008D27F9 /* doom.h */,
+				C85974CC2DAFEAA5008D27F9 /* doomdata.h */,
+				C85974CD2DAFEAA5008D27F9 /* doomdef.h */,
+				C85974CE2DAFEAA5008D27F9 /* doomdef.c */,
+				C85974CF2DAFEAA5008D27F9 /* doomfeatures.h */,
+				C85974D02DAFEAA5008D27F9 /* doomgeneric.h */,
+				C85974D12DAFEAA5008D27F9 /* doomgeneric.c */,
+				C85974D22DAFEAA5008D27F9 /* doomgeneric.vcxproj */,
+				C85974D92DAFEAA5008D27F9 /* doomgeneric.vcxproj.filters */,
+				C85974DA2DAFEAA5008D27F9 /* doomkeys.h */,
+				C85974DB2DAFEAA5008D27F9 /* doomstat.h */,
+				C85974DC2DAFEAA5008D27F9 /* doomstat.c */,
+				C85974DD2DAFEAA5008D27F9 /* doomtype.h */,
+				C85974DE2DAFEAA5008D27F9 /* dstrings.h */,
+				C85974DF2DAFEAA5008D27F9 /* dstrings.c */,
+				C85974E02DAFEAA5008D27F9 /* dummy.c */,
+				C85974E12DAFEAA5008D27F9 /* f_finale.h */,
+				C85974E22DAFEAA5008D27F9 /* f_finale.c */,
+				C85974E32DAFEAA5008D27F9 /* f_wipe.h */,
+				C85974E42DAFEAA5008D27F9 /* f_wipe.c */,
+				C85974E52DAFEAA5008D27F9 /* g_game.h */,
+				C85974E62DAFEAA5008D27F9 /* g_game.c */,
+				C85974E72DAFEAA5008D27F9 /* gusconf.h */,
+				C85974E82DAFEAA5008D27F9 /* gusconf.c */,
+				C85974E92DAFEAA5008D27F9 /* hu_lib.h */,
+				C85974EA2DAFEAA5008D27F9 /* hu_lib.c */,
+				C85974EB2DAFEAA5008D27F9 /* hu_stuff.h */,
+				C85974EC2DAFEAA5008D27F9 /* hu_stuff.c */,
+				C85974ED2DAFEAA5008D27F9 /* i_cdmus.h */,
+				C85974EE2DAFEAA5008D27F9 /* i_cdmus.c */,
+				C85974EF2DAFEAA5008D27F9 /* i_endoom.h */,
+				C85974F02DAFEAA5008D27F9 /* i_endoom.c */,
+				C85974F12DAFEAA5008D27F9 /* i_input.c */,
+				C85974F22DAFEAA5008D27F9 /* i_joystick.h */,
+				C85974F32DAFEAA5008D27F9 /* i_joystick.c */,
+				C85974F42DAFEAA5008D27F9 /* i_scale.h */,
+				C85974F52DAFEAA5008D27F9 /* i_scale.c */,
+				C85974F82DAFEAA5008D27F9 /* i_sound.h */,
+				C85974F92DAFEAA5008D27F9 /* i_sound.c */,
+				C85974FA2DAFEAA5008D27F9 /* i_swap.h */,
+				C85974FB2DAFEAA5008D27F9 /* i_system.h */,
+				C85974FC2DAFEAA5008D27F9 /* i_system.c */,
+				C85974FD2DAFEAA5008D27F9 /* i_timer.h */,
+				C85974FE2DAFEAA5008D27F9 /* i_timer.c */,
+				C85974FF2DAFEAA5008D27F9 /* i_video.h */,
+				C85975002DAFEAA5008D27F9 /* i_video.c */,
+				C85975012DAFEAA5008D27F9 /* icon.c */,
+				C85975022DAFEAA5008D27F9 /* info.h */,
+				C85975032DAFEAA5008D27F9 /* info.c */,
+				C85975042DAFEAA5008D27F9 /* m_argv.h */,
+				C85975052DAFEAA5008D27F9 /* m_argv.c */,
+				C85975062DAFEAA5008D27F9 /* m_bbox.h */,
+				C85975072DAFEAA5008D27F9 /* m_bbox.c */,
+				C85975082DAFEAA5008D27F9 /* m_cheat.h */,
+				C85975092DAFEAA5008D27F9 /* m_cheat.c */,
+				C859750A2DAFEAA5008D27F9 /* m_config.h */,
+				C859750B2DAFEAA5008D27F9 /* m_config.c */,
+				C859750C2DAFEAA5008D27F9 /* m_controls.h */,
+				C859750D2DAFEAA5008D27F9 /* m_controls.c */,
+				C859750E2DAFEAA5008D27F9 /* m_fixed.h */,
+				C859750F2DAFEAA5008D27F9 /* m_fixed.c */,
+				C85975102DAFEAA5008D27F9 /* m_menu.h */,
+				C85975112DAFEAA5008D27F9 /* m_menu.c */,
+				C85975122DAFEAA5008D27F9 /* m_misc.h */,
+				C85975132DAFEAA5008D27F9 /* m_misc.c */,
+				C85975142DAFEAA5008D27F9 /* m_random.h */,
+				C85975152DAFEAA5008D27F9 /* m_random.c */,
+				C85975162DAFEAA5008D27F9 /* Makefile */,
+				C85975172DAFEAA5008D27F9 /* Makefile.emscripten */,
+				C85975182DAFEAA5008D27F9 /* Makefile.freebsd */,
+				C85975192DAFEAA5008D27F9 /* Makefile.sdl */,
+				C859751A2DAFEAA5008D27F9 /* Makefile.soso */,
+				C859751B2DAFEAA5008D27F9 /* Makefile.sosox */,
+				C859751C2DAFEAA5008D27F9 /* memio.h */,
+				C859751D2DAFEAA5008D27F9 /* memio.c */,
+				C859751E2DAFEAA5008D27F9 /* mus2mid.h */,
+				C859751F2DAFEAA5008D27F9 /* mus2mid.c */,
+				C85975202DAFEAA5008D27F9 /* net_client.h */,
+				C85975212DAFEAA5008D27F9 /* net_dedicated.h */,
+				C85975222DAFEAA5008D27F9 /* net_defs.h */,
+				C85975232DAFEAA5008D27F9 /* net_gui.h */,
+				C85975242DAFEAA5008D27F9 /* net_io.h */,
+				C85975252DAFEAA5008D27F9 /* net_loop.h */,
+				C85975262DAFEAA5008D27F9 /* net_packet.h */,
+				C85975272DAFEAA5008D27F9 /* net_query.h */,
+				C85975282DAFEAA5008D27F9 /* net_sdl.h */,
+				C85975292DAFEAA5008D27F9 /* net_server.h */,
+				C859752A2DAFEAA5008D27F9 /* p_ceilng.c */,
+				C859752B2DAFEAA5008D27F9 /* p_doors.c */,
+				C859752C2DAFEAA5008D27F9 /* p_enemy.c */,
+				C859752D2DAFEAA5008D27F9 /* p_floor.c */,
+				C859752E2DAFEAA5008D27F9 /* p_inter.h */,
+				C859752F2DAFEAA5008D27F9 /* p_inter.c */,
+				C85975302DAFEAA5008D27F9 /* p_lights.c */,
+				C85975312DAFEAA5008D27F9 /* p_local.h */,
+				C85975322DAFEAA5008D27F9 /* p_map.c */,
+				C85975332DAFEAA5008D27F9 /* p_maputl.c */,
+				C85975342DAFEAA5008D27F9 /* p_mobj.h */,
+				C85975352DAFEAA5008D27F9 /* p_mobj.c */,
+				C85975362DAFEAA5008D27F9 /* p_plats.c */,
+				C85975372DAFEAA5008D27F9 /* p_pspr.h */,
+				C85975382DAFEAA5008D27F9 /* p_pspr.c */,
+				C85975392DAFEAA5008D27F9 /* p_saveg.h */,
+				C859753A2DAFEAA5008D27F9 /* p_saveg.c */,
+				C859753B2DAFEAA5008D27F9 /* p_setup.h */,
+				C859753C2DAFEAA5008D27F9 /* p_setup.c */,
+				C859753D2DAFEAA5008D27F9 /* p_sight.c */,
+				C859753E2DAFEAA5008D27F9 /* p_spec.h */,
+				C859753F2DAFEAA5008D27F9 /* p_spec.c */,
+				C85975402DAFEAA5008D27F9 /* p_switch.c */,
+				C85975412DAFEAA5008D27F9 /* p_telept.c */,
+				C85975422DAFEAA5008D27F9 /* p_tick.h */,
+				C85975432DAFEAA5008D27F9 /* p_tick.c */,
+				C85975442DAFEAA5008D27F9 /* p_user.c */,
+				C85975452DAFEAA5008D27F9 /* r_bsp.h */,
+				C85975462DAFEAA5008D27F9 /* r_bsp.c */,
+				C85975472DAFEAA5008D27F9 /* r_data.h */,
+				C85975482DAFEAA5008D27F9 /* r_data.c */,
+				C85975492DAFEAA5008D27F9 /* r_defs.h */,
+				C859754A2DAFEAA5008D27F9 /* r_draw.h */,
+				C859754B2DAFEAA5008D27F9 /* r_draw.c */,
+				C859754C2DAFEAA5008D27F9 /* r_local.h */,
+				C859754D2DAFEAA5008D27F9 /* r_main.h */,
+				C859754E2DAFEAA5008D27F9 /* r_main.c */,
+				C859754F2DAFEAA5008D27F9 /* r_plane.h */,
+				C85975502DAFEAA5008D27F9 /* r_plane.c */,
+				C85975512DAFEAA5008D27F9 /* r_segs.h */,
+				C85975522DAFEAA5008D27F9 /* r_segs.c */,
+				C85975532DAFEAA5008D27F9 /* r_sky.h */,
+				C85975542DAFEAA5008D27F9 /* r_sky.c */,
+				C85975552DAFEAA5008D27F9 /* r_state.h */,
+				C85975562DAFEAA5008D27F9 /* r_things.h */,
+				C85975572DAFEAA5008D27F9 /* r_things.c */,
+				C85975582DAFEAA5008D27F9 /* s_sound.h */,
+				C85975592DAFEAA5008D27F9 /* s_sound.c */,
+				C859755A2DAFEAA5008D27F9 /* sha1.h */,
+				C859755B2DAFEAA5008D27F9 /* sha1.c */,
+				C859755C2DAFEAA5008D27F9 /* sounds.h */,
+				C859755D2DAFEAA5008D27F9 /* sounds.c */,
+				C859755E2DAFEAA5008D27F9 /* st_lib.h */,
+				C859755F2DAFEAA5008D27F9 /* st_lib.c */,
+				C85975602DAFEAA5008D27F9 /* st_stuff.h */,
+				C85975612DAFEAA5008D27F9 /* st_stuff.c */,
+				C85975622DAFEAA5008D27F9 /* statdump.h */,
+				C85975632DAFEAA5008D27F9 /* statdump.c */,
+				C85975642DAFEAA5008D27F9 /* tables.h */,
+				C85975652DAFEAA5008D27F9 /* tables.c */,
+				C85975662DAFEAA5008D27F9 /* v_patch.h */,
+				C85975672DAFEAA5008D27F9 /* v_video.h */,
+				C85975682DAFEAA5008D27F9 /* v_video.c */,
+				C85975692DAFEAA5008D27F9 /* w_checksum.h */,
+				C859756A2DAFEAA5008D27F9 /* w_checksum.c */,
+				C859756B2DAFEAA5008D27F9 /* w_file.h */,
+				C859756C2DAFEAA5008D27F9 /* w_file.c */,
+				C859756D2DAFEAA5008D27F9 /* w_file_stdc.c */,
+				C859756E2DAFEAA5008D27F9 /* w_main.h */,
+				C859756F2DAFEAA5008D27F9 /* w_main.c */,
+				C85975702DAFEAA5008D27F9 /* w_merge.h */,
+				C85975712DAFEAA5008D27F9 /* w_wad.h */,
+				C85975722DAFEAA5008D27F9 /* w_wad.c */,
+				C85975732DAFEAA5008D27F9 /* wi_stuff.h */,
+				C85975742DAFEAA5008D27F9 /* wi_stuff.c */,
+				C85975752DAFEAA5008D27F9 /* z_zone.h */,
+				C85975762DAFEAA5008D27F9 /* z_zone.c */,
+			);
+			path = doomgeneric;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C859747C2DAFE9E5008D27F9 /* doomwatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C85974AA2DAFE9E7008D27F9 /* Build configuration list for PBXNativeTarget "doomwatch" */;
+			buildPhases = (
+				C859747B2DAFE9E5008D27F9 /* Resources */,
+				C85974A92DAFE9E7008D27F9 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C85974862DAFE9E5008D27F9 /* PBXTargetDependency */,
+			);
+			name = doomwatch;
+			packageProductDependencies = (
+			);
+			productName = doomwatch;
+			productReference = C859747D2DAFE9E5008D27F9 /* doomwatch.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		C85974822DAFE9E5008D27F9 /* doomwatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C85974A62DAFE9E7008D27F9 /* Build configuration list for PBXNativeTarget "doomwatch Watch App" */;
+			buildPhases = (
+				C859747F2DAFE9E5008D27F9 /* Sources */,
+				C85974802DAFE9E5008D27F9 /* Frameworks */,
+				C85974812DAFE9E5008D27F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C85974872DAFE9E5008D27F9 /* doomwatch Watch App */,
+			);
+			name = "doomwatch Watch App";
+			packageProductDependencies = (
+			);
+			productName = "doomwatch Watch App";
+			productReference = C85974832DAFE9E5008D27F9 /* doomwatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C85974912DAFE9E7008D27F9 /* doomwatch Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C85974AD2DAFE9E7008D27F9 /* Build configuration list for PBXNativeTarget "doomwatch Watch AppTests" */;
+			buildPhases = (
+				C859748E2DAFE9E7008D27F9 /* Sources */,
+				C859748F2DAFE9E7008D27F9 /* Frameworks */,
+				C85974902DAFE9E7008D27F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C85974942DAFE9E7008D27F9 /* PBXTargetDependency */,
+			);
+			name = "doomwatch Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "doomwatch Watch AppTests";
+			productReference = C859768F2DB0353F008D27F9 /* doomwatch Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C859749B2DAFE9E7008D27F9 /* doomwatch Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C85974B02DAFE9E7008D27F9 /* Build configuration list for PBXNativeTarget "doomwatch Watch AppUITests" */;
+			buildPhases = (
+				C85974982DAFE9E7008D27F9 /* Sources */,
+				C85974992DAFE9E7008D27F9 /* Frameworks */,
+				C859749A2DAFE9E7008D27F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C859749E2DAFE9E7008D27F9 /* PBXTargetDependency */,
+			);
+			name = "doomwatch Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "doomwatch Watch AppUITests";
+			productReference = C85976902DB0353F008D27F9 /* doomwatch Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		C85975F32DB02B17008D27F9 /* doomwatch Watch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C859761E2DB02B1A008D27F9 /* Build configuration list for PBXNativeTarget "doomwatch Watch Extension" */;
+			buildPhases = (
+				C85975F22DB02B17008D27F9 /* Resources */,
+				C859761D2DB02B1A008D27F9 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C85975FC2DB02B17008D27F9 /* PBXTargetDependency */,
+			);
+			name = "doomwatch Watch Extension";
+			packageProductDependencies = (
+			);
+			productName = "doomwatch Watch Extension";
+			productReference = C85975F42DB02B17008D27F9 /* doomwatch Watch Extension.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		C85975F82DB02B17008D27F9 /* doomwatch Watch Extension Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C859761A2DB02B1A008D27F9 /* Build configuration list for PBXNativeTarget "doomwatch Watch Extension Watch App" */;
+			buildPhases = (
+				C85975F52DB02B17008D27F9 /* Sources */,
+				C85975F62DB02B17008D27F9 /* Frameworks */,
+				C85975F72DB02B17008D27F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "doomwatch Watch Extension Watch App";
+			packageProductDependencies = (
+			);
+			productName = "doomwatch Watch Extension Watch App";
+			productReference = C85975F92DB02B17008D27F9 /* doomwatch Watch Extension Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C85976072DB02B1A008D27F9 /* doomwatch Watch Extension Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C85976212DB02B1A008D27F9 /* Build configuration list for PBXNativeTarget "doomwatch Watch Extension Watch AppTests" */;
+			buildPhases = (
+				C85976042DB02B1A008D27F9 /* Sources */,
+				C85976052DB02B1A008D27F9 /* Frameworks */,
+				C85976062DB02B1A008D27F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C859760A2DB02B1A008D27F9 /* PBXTargetDependency */,
+			);
+			name = "doomwatch Watch Extension Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "doomwatch Watch Extension Watch AppTests";
+			productReference = C85976912DB0353F008D27F9 /* doomwatch Watch Extension Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C85976112DB02B1A008D27F9 /* doomwatch Watch Extension Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C85976242DB02B1A008D27F9 /* Build configuration list for PBXNativeTarget "doomwatch Watch Extension Watch AppUITests" */;
+			buildPhases = (
+				C859760E2DB02B1A008D27F9 /* Sources */,
+				C859760F2DB02B1A008D27F9 /* Frameworks */,
+				C85976102DB02B1A008D27F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C85976142DB02B1A008D27F9 /* PBXTargetDependency */,
+			);
+			name = "doomwatch Watch Extension Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "doomwatch Watch Extension Watch AppUITests";
+			productReference = C85976922DB0353F008D27F9 /* doomwatch Watch Extension Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C85974772DAFE9E4008D27F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					C859747C2DAFE9E5008D27F9 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					C85974822DAFE9E5008D27F9 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					C85974912DAFE9E7008D27F9 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = C85974822DAFE9E5008D27F9;
+					};
+					C859749B2DAFE9E7008D27F9 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = C85974822DAFE9E5008D27F9;
+					};
+					C85975F32DB02B17008D27F9 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					C85975F82DB02B17008D27F9 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					C85976072DB02B1A008D27F9 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = C85975F82DB02B17008D27F9;
+					};
+					C85976112DB02B1A008D27F9 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = C85975F82DB02B17008D27F9;
+					};
+				};
+			};
+			buildConfigurationList = C859747A2DAFE9E4008D27F9 /* Build configuration list for PBXProject "doomwatch" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C85974762DAFE9E4008D27F9;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C859747E2DAFE9E5008D27F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C859747C2DAFE9E5008D27F9 /* doomwatch */,
+				C85974822DAFE9E5008D27F9 /* doomwatch Watch App */,
+				C85974912DAFE9E7008D27F9 /* doomwatch Watch AppTests */,
+				C859749B2DAFE9E7008D27F9 /* doomwatch Watch AppUITests */,
+				C85975F32DB02B17008D27F9 /* doomwatch Watch Extension */,
+				C85975F82DB02B17008D27F9 /* doomwatch Watch Extension Watch App */,
+				C85976072DB02B1A008D27F9 /* doomwatch Watch Extension Watch AppTests */,
+				C85976112DB02B1A008D27F9 /* doomwatch Watch Extension Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C859747B2DAFE9E5008D27F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C85974812DAFE9E5008D27F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C85975782DAFEAA5008D27F9 /* doomgeneric.vcxproj in Resources */,
+				C85975792DAFEAA5008D27F9 /* Makefile.soso in Resources */,
+				C859757A2DAFEAA5008D27F9 /* Makefile.freebsd in Resources */,
+				C859757B2DAFEAA5008D27F9 /* Makefile.emscripten in Resources */,
+				C859757C2DAFEAA5008D27F9 /* Makefile.sdl in Resources */,
+				C859757D2DAFEAA5008D27F9 /* Makefile.sosox in Resources */,
+				C85975DC2DAFEABE008D27F9 /* doom1.wad in Resources */,
+				C859757E2DAFEAA5008D27F9 /* doomgeneric.vcxproj.filters in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C85974902DAFE9E7008D27F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C859749A2DAFE9E7008D27F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C85975F22DB02B17008D27F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C85975F72DB02B17008D27F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C85976062DB02B1A008D27F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C85976102DB02B1A008D27F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C859747F2DAFE9E5008D27F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C85975862DAFEAA5008D27F9 /* Makefile in Sources */,
+				C85976992DB03593008D27F9 /* i_video.c in Sources */,
+				C859769A2DB03593008D27F9 /* p_maputl.c in Sources */,
+				C859769B2DB03593008D27F9 /* tables.c in Sources */,
+				C859769C2DB03593008D27F9 /* wi_stuff.c in Sources */,
+				C859769D2DB03593008D27F9 /* w_main.c in Sources */,
+				C859769E2DB03593008D27F9 /* i_scale.c in Sources */,
+				C859769F2DB03593008D27F9 /* d_main.c in Sources */,
+				C85976A02DB03593008D27F9 /* i_cdmus.c in Sources */,
+				C85976A12DB03593008D27F9 /* info.c in Sources */,
+				C85976A22DB03593008D27F9 /* dstrings.c in Sources */,
+				C85976A32DB03593008D27F9 /* i_sound.c in Sources */,
+				C85976A42DB03593008D27F9 /* p_enemy.c in Sources */,
+				C85976A52DB03593008D27F9 /* mus2mid.c in Sources */,
+				C85976A62DB03593008D27F9 /* st_stuff.c in Sources */,
+				C85976A72DB03593008D27F9 /* m_cheat.c in Sources */,
+				C85976A82DB03593008D27F9 /* hu_lib.c in Sources */,
+				C85976A92DB03593008D27F9 /* i_endoom.c in Sources */,
+				C85976AA2DB03593008D27F9 /* statdump.c in Sources */,
+				C85976AB2DB03593008D27F9 /* m_argv.c in Sources */,
+				C85976AC2DB03593008D27F9 /* p_mobj.c in Sources */,
+				C85976AD2DB03593008D27F9 /* v_video.c in Sources */,
+				C85976AE2DB03593008D27F9 /* doomstat.c in Sources */,
+				C85976AF2DB03593008D27F9 /* p_setup.c in Sources */,
+				C85976B02DB03593008D27F9 /* p_telept.c in Sources */,
+				C85976B12DB03593008D27F9 /* doomdef.c in Sources */,
+				C85976B22DB03593008D27F9 /* p_inter.c in Sources */,
+				C85976B32DB03593008D27F9 /* icon.c in Sources */,
+				C85976B42DB03593008D27F9 /* d_mode.c in Sources */,
+				C85976B52DB03593008D27F9 /* r_things.c in Sources */,
+				C85976B62DB03593008D27F9 /* gusconf.c in Sources */,
+				C85976B72DB03593008D27F9 /* m_bbox.c in Sources */,
+				C85976B82DB03593008D27F9 /* st_lib.c in Sources */,
+				C85976B92DB03593008D27F9 /* m_random.c in Sources */,
+				C85976BA2DB03593008D27F9 /* p_floor.c in Sources */,
+				C85976BB2DB03593008D27F9 /* dummy.c in Sources */,
+				C85976BC2DB03593008D27F9 /* s_sound.c in Sources */,
+				C85976BD2DB03593008D27F9 /* r_bsp.c in Sources */,
+				C85976BE2DB03593008D27F9 /* f_finale.c in Sources */,
+				C85976BF2DB03593008D27F9 /* d_items.c in Sources */,
+				C85976C02DB03593008D27F9 /* p_ceilng.c in Sources */,
+				C85976C12DB03593008D27F9 /* p_doors.c in Sources */,
+				C85976C22DB03593008D27F9 /* p_map.c in Sources */,
+				C85976C32DB03593008D27F9 /* sounds.c in Sources */,
+				C85976C42DB03593008D27F9 /* p_tick.c in Sources */,
+				C85976C52DB03593008D27F9 /* i_joystick.c in Sources */,
+				C85976C62DB03593008D27F9 /* p_sight.c in Sources */,
+				C85976C72DB03593008D27F9 /* p_switch.c in Sources */,
+				C85976C82DB03593008D27F9 /* g_game.c in Sources */,
+				C85976C92DB03593008D27F9 /* d_loop.c in Sources */,
+				C85976CA2DB03593008D27F9 /* w_wad.c in Sources */,
+				C85976CB2DB03593008D27F9 /* f_wipe.c in Sources */,
+				C85976CC2DB03593008D27F9 /* w_file.c in Sources */,
+				C85976CD2DB03593008D27F9 /* w_file_stdc.c in Sources */,
+				C85976CE2DB03593008D27F9 /* d_net.c in Sources */,
+				C85976CF2DB03593008D27F9 /* am_map.c in Sources */,
+				C85976D02DB03593008D27F9 /* hu_stuff.c in Sources */,
+				C85976D12DB03593008D27F9 /* memio.c in Sources */,
+				C85976D22DB03593008D27F9 /* r_plane.c in Sources */,
+				C85976D32DB03593008D27F9 /* r_data.c in Sources */,
+				C85976D42DB03593008D27F9 /* r_sky.c in Sources */,
+				C85976D52DB03593008D27F9 /* i_timer.c in Sources */,
+				C85976D62DB03593008D27F9 /* p_lights.c in Sources */,
+				C85976D72DB03593008D27F9 /* i_system.c in Sources */,
+				C85976D82DB03593008D27F9 /* p_pspr.c in Sources */,
+				C85976D92DB03593008D27F9 /* r_main.c in Sources */,
+				C85976DA2DB03593008D27F9 /* p_saveg.c in Sources */,
+				C85976DB2DB03593008D27F9 /* z_zone.c in Sources */,
+				C85976DC2DB03593008D27F9 /* d_iwad.c in Sources */,
+				C85976DD2DB03593008D27F9 /* m_config.c in Sources */,
+				C85976DE2DB03593008D27F9 /* m_fixed.c in Sources */,
+				C85976DF2DB03593008D27F9 /* m_menu.c in Sources */,
+				C85976E02DB03593008D27F9 /* doomgeneric.c in Sources */,
+				C85976E12DB03593008D27F9 /* r_segs.c in Sources */,
+				C85976E22DB03593008D27F9 /* r_draw.c in Sources */,
+				C85976E32DB03593008D27F9 /* i_input.c in Sources */,
+				C85976E42DB03593008D27F9 /* w_checksum.c in Sources */,
+				C85976E52DB03593008D27F9 /* p_spec.c in Sources */,
+				C85976E62DB03593008D27F9 /* d_event.c in Sources */,
+				C85976E72DB03593008D27F9 /* m_controls.c in Sources */,
+				C85976E82DB03593008D27F9 /* p_plats.c in Sources */,
+				C85976E92DB03593008D27F9 /* sha1.c in Sources */,
+				C85976EA2DB03593008D27F9 /* p_user.c in Sources */,
+				C85976EB2DB03593008D27F9 /* m_misc.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C859748E2DAFE9E7008D27F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C85974982DAFE9E7008D27F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C85975F52DB02B17008D27F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C85976042DB02B1A008D27F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C859760E2DB02B1A008D27F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C85974862DAFE9E5008D27F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C85974822DAFE9E5008D27F9 /* doomwatch Watch App */;
+			targetProxy = C85974852DAFE9E5008D27F9 /* PBXContainerItemProxy */;
+		};
+		C85974942DAFE9E7008D27F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C85974822DAFE9E5008D27F9 /* doomwatch Watch App */;
+			targetProxy = C85974932DAFE9E7008D27F9 /* PBXContainerItemProxy */;
+		};
+		C859749E2DAFE9E7008D27F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C85974822DAFE9E5008D27F9 /* doomwatch Watch App */;
+			targetProxy = C859749D2DAFE9E7008D27F9 /* PBXContainerItemProxy */;
+		};
+		C85975FC2DB02B17008D27F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C85975F82DB02B17008D27F9 /* doomwatch Watch Extension Watch App */;
+			targetProxy = C85975FB2DB02B17008D27F9 /* PBXContainerItemProxy */;
+		};
+		C859760A2DB02B1A008D27F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C85975F82DB02B17008D27F9 /* doomwatch Watch Extension Watch App */;
+			targetProxy = C85976092DB02B1A008D27F9 /* PBXContainerItemProxy */;
+		};
+		C85976142DB02B1A008D27F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C85975F82DB02B17008D27F9 /* doomwatch Watch Extension Watch App */;
+			targetProxy = C85976132DB02B1A008D27F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C85974A42DAFE9E7008D27F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C85974A52DAFE9E7008D27F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		C85974A72DAFE9E7008D27F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 89F9B8N2F5;
+				ENABLE_PREVIEWS = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "doomwatch-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = doomwatch;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = joeytarnowski.doomwatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "doomwatch Watch App/doomgeneric_bridge.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		C85974A82DAFE9E7008D27F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 89F9B8N2F5;
+				ENABLE_PREVIEWS = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "doomwatch-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = doomwatch;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = joeytarnowski.doomwatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "doomwatch Watch App/doomgeneric_bridge.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Release;
+		};
+		C85974AB2DAFE9E7008D27F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 89F9B8N2F5;
+				INFOPLIST_KEY_CFBundleDisplayName = doomwatch;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = joeytarnowski.doomwatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C85974AC2DAFE9E7008D27F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 89F9B8N2F5;
+				INFOPLIST_KEY_CFBundleDisplayName = doomwatch;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = joeytarnowski.doomwatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C85974AE2DAFE9E7008D27F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "joeytarnowski.doomwatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/doomwatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/doomwatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		C85974AF2DAFE9E7008D27F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "joeytarnowski.doomwatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/doomwatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/doomwatch Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Release;
+		};
+		C85974B12DAFE9E7008D27F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "joeytarnowski.doomwatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "doomwatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		C85974B22DAFE9E7008D27F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "joeytarnowski.doomwatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "doomwatch Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Release;
+		};
+		C859761B2DB02B1A008D27F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "doomwatch-Watch-Extension-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "doomwatch Watch Extension";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MACH_O_TYPE = mh_bundle;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "joeytarnowski.doomwatch-Watch-Extension.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = doomgeneric_bridge.h;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		C859761C2DB02B1A008D27F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "doomwatch-Watch-Extension-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "doomwatch Watch Extension";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MACH_O_TYPE = mh_bundle;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "joeytarnowski.doomwatch-Watch-Extension.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = doomgeneric_bridge.h;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Release;
+		};
+		C859761F2DB02B1A008D27F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = "doomwatch Watch Extension";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "joeytarnowski.doomwatch-Watch-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C85976202DB02B1A008D27F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = "doomwatch Watch Extension";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "joeytarnowski.doomwatch-Watch-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C85976222DB02B1A008D27F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "joeytarnowski.doomwatch-Watch-Extension-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/doomwatch Watch Extension Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/doomwatch Watch Extension Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		C85976232DB02B1A008D27F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "joeytarnowski.doomwatch-Watch-Extension-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/doomwatch Watch Extension Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/doomwatch Watch Extension Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Release;
+		};
+		C85976252DB02B1A008D27F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "joeytarnowski.doomwatch-Watch-Extension-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "doomwatch Watch Extension Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		C85976262DB02B1A008D27F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "joeytarnowski.doomwatch-Watch-Extension-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "doomwatch Watch Extension Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C859747A2DAFE9E4008D27F9 /* Build configuration list for PBXProject "doomwatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C85974A42DAFE9E7008D27F9 /* Debug */,
+				C85974A52DAFE9E7008D27F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C85974A62DAFE9E7008D27F9 /* Build configuration list for PBXNativeTarget "doomwatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C85974A72DAFE9E7008D27F9 /* Debug */,
+				C85974A82DAFE9E7008D27F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C85974AA2DAFE9E7008D27F9 /* Build configuration list for PBXNativeTarget "doomwatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C85974AB2DAFE9E7008D27F9 /* Debug */,
+				C85974AC2DAFE9E7008D27F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C85974AD2DAFE9E7008D27F9 /* Build configuration list for PBXNativeTarget "doomwatch Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C85974AE2DAFE9E7008D27F9 /* Debug */,
+				C85974AF2DAFE9E7008D27F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C85974B02DAFE9E7008D27F9 /* Build configuration list for PBXNativeTarget "doomwatch Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C85974B12DAFE9E7008D27F9 /* Debug */,
+				C85974B22DAFE9E7008D27F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C859761A2DB02B1A008D27F9 /* Build configuration list for PBXNativeTarget "doomwatch Watch Extension Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C859761B2DB02B1A008D27F9 /* Debug */,
+				C859761C2DB02B1A008D27F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C859761E2DB02B1A008D27F9 /* Build configuration list for PBXNativeTarget "doomwatch Watch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C859761F2DB02B1A008D27F9 /* Debug */,
+				C85976202DB02B1A008D27F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C85976212DB02B1A008D27F9 /* Build configuration list for PBXNativeTarget "doomwatch Watch Extension Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C85976222DB02B1A008D27F9 /* Debug */,
+				C85976232DB02B1A008D27F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C85976242DB02B1A008D27F9 /* Build configuration list for PBXNativeTarget "doomwatch Watch Extension Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C85976252DB02B1A008D27F9 /* Debug */,
+				C85976262DB02B1A008D27F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C85974772DAFE9E4008D27F9 /* Project object */;
+}
