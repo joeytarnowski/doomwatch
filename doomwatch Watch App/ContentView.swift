@@ -13,8 +13,6 @@ struct ContentView: View {
     @State private var crownValue = 0.0
     @State private var lastFiredDirection: Int = 0
 
-    @StateObject private var menuPoller = MenuModePoller()
-
     let doomScene = DoomScene(size: WKInterfaceDevice.current().screenBounds.size)
     @StateObject private var controller: DoomControlController
 
@@ -48,15 +46,12 @@ struct ContentView: View {
             isHapticFeedbackEnabled: true
         )
         .onChange(of: crownValue) {
-            if menuPoller.isMenuActive {
+            if DG_IsMenuActive() != 0 {
                 controller.handleMenuCrown(value: crownValue)
                 crownValue = 0
             } else {
                 controller.handleGameCrown(value: crownValue)
             }
-        }
-        .onChange(of: menuPoller.isMenuActive) {
-            controller.setMenuMode(value: menuPoller.isMenuActive)
         }
         .ignoresSafeArea()
     }

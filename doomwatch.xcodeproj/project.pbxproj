@@ -174,6 +174,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C8065E3A2DC1A419008D27F9 /* doomwatch Watch Extension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "doomwatch Watch Extension.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C859747D2DAFE9E5008D27F9 /* doomwatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = doomwatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C85974832DAFE9E5008D27F9 /* doomwatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "doomwatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C85974B32DAFEAA5008D27F9 /* am_map.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = am_map.h; sourceTree = "<group>"; };
@@ -365,7 +366,6 @@
 		C85975752DAFEAA5008D27F9 /* z_zone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = z_zone.h; sourceTree = "<group>"; };
 		C85975762DAFEAA5008D27F9 /* z_zone.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = z_zone.c; sourceTree = "<group>"; };
 		C85975DB2DAFEABE008D27F9 /* doom1.wad */ = {isa = PBXFileReference; lastKnownFileType = file; path = doom1.wad; sourceTree = "<group>"; };
-		C85975F42DB02B17008D27F9 /* doomwatch Watch Extension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "doomwatch Watch Extension.app"; path = "/Users/joeytarnowski/Documents/GitHub/apple-watch-doom/doomwatch/build/Debug-iphoneos/doomwatch Watch Extension.app"; sourceTree = "<absolute>"; };
 		C85975F92DB02B17008D27F9 /* doomwatch Watch Extension Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "doomwatch Watch Extension Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C859768F2DB0353F008D27F9 /* doomwatch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "doomwatch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C85976902DB0353F008D27F9 /* doomwatch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "doomwatch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -447,6 +447,7 @@
 				C85976902DB0353F008D27F9 /* doomwatch Watch AppUITests.xctest */,
 				C85976912DB0353F008D27F9 /* doomwatch Watch Extension Watch AppTests.xctest */,
 				C85976922DB0353F008D27F9 /* doomwatch Watch Extension Watch AppUITests.xctest */,
+				C8065E3A2DC1A419008D27F9 /* doomwatch Watch Extension.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -746,7 +747,7 @@
 			packageProductDependencies = (
 			);
 			productName = "doomwatch Watch Extension";
-			productReference = C85975F42DB02B17008D27F9 /* doomwatch Watch Extension.app */;
+			productReference = C8065E3A2DC1A419008D27F9 /* doomwatch Watch Extension.app */;
 			productType = "com.apple.product-type.application.watchapp2-container";
 		};
 		C85975F82DB02B17008D27F9 /* doomwatch Watch Extension Watch App */ = {
