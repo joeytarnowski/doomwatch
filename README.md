@@ -11,12 +11,12 @@ Objective-C was used for interop between the Swift frontend and the DOOM Engine 
 
 # Controls
 Controls are implemented and can be adjusted in doomController.swift. It uses the digital crown for forward/backward movement, and touchscreen controls are used for everything else (with fire/action replaced with backspace/enter during menu navigation):
-                           | run  |
-  left    |   right        |______|
-----------------------     | walk |
-  left    |   right        |______|
-----------------------     | none |
+                           | run  |  
+  left    |   right        |______|  
+----------------------     | walk |  
+  left    |   right        |______|  
+----------------------     | none |  
 fire | pause | action      |______|  
-----------------------     | back |
+----------------------     | back |  
 
 
