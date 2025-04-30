@@ -4,6 +4,7 @@
 This project implements a framebuffer renderer and custom input system to run classic DOOM on watchOS using SwiftUI and SpriteKit, with input handled via touchscreen and Digital Crown.
 
 I have included my final paper I wrote with a more in-depth explanation of my implementation, and a demo of the final product can be seen here:
+https://www.youtube.com/watch?v=nkq0mLkQVxY
 
 # Swift/DOOM Engine Interoperability
 Objective-C was used for interop between the Swift frontend and the DOOM Engine backend. doomgeneric_bridge handles the create/tick process and data exchange from the DOOM Engine to the frontend, and doomgeneric_watchos implements most of the required doomgeneric functions (DG_Init, DG_SleepMs, _GetTicksMs, and DG_GetKey) as well as other functions required for data exchange from the frontend to the DOOM Engine. 
